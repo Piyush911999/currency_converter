@@ -29,26 +29,29 @@
                 android:layout_weight="1"
                 android:text="Indian Rupee"
                 android:textColor="@color/red_500"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
             <EditText
                 android:id="@+id/curr1"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginEnd="20dp"
-                android:layout_marginStart="20dp"
-                android:layout_weight="1"
+                android:layout_marginStart="5dp"
+                android:layout_weight="1.3"
                 android:hint="Rs"
                 android:inputType="numberDecimal"
                 android:textAlignment="center"
-                android:textSize="12sp" />
+                android:textSize="12sp"
+                android:textStyle="normal" />
 
             <Button
                 android:id="@+id/btnCal"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:layout_weight="0"
-                android:text="@string/results" />
+                android:text="@string/results"
+                android:textStyle="bold" />
 
 
         </LinearLayout>
@@ -68,26 +71,29 @@
                 android:layout_weight="1"
                 android:text="US Dollar"
                 android:textColor="@color/teal_500"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
             <EditText
                 android:id="@+id/curr2"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginEnd="20dp"
-                android:layout_marginStart="20dp"
-                android:layout_weight="1"
+                android:layout_marginStart="5dp"
+                android:layout_weight="1.3"
                 android:hint="USD"
                 android:inputType="numberDecimal"
                 android:textAlignment="center"
-                android:textSize="12sp" />
+                android:textSize="12sp"
+                android:textStyle="normal" />
 
             <Button
                 android:id="@+id/btnCal2"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:layout_weight="0"
-                android:text="@string/results" />
+                android:text="@string/results"
+                android:textStyle="bold" />
         </LinearLayout>
 
         <LinearLayout
@@ -104,15 +110,16 @@
                 android:layout_weight="1"
                 android:text="Malaysian Ringgit"
                 android:textColor="@color/teal_500"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
             <EditText
                 android:id="@+id/curr3"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginEnd="20dp"
-                android:layout_marginStart="20dp"
-                android:layout_weight="1"
+                android:layout_marginStart="5dp"
+                android:layout_weight="1.3"
                 android:hint="MYR"
                 android:inputType="numberDecimal"
                 android:textAlignment="center"
@@ -123,7 +130,8 @@
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:layout_weight="0"
-                android:text="@string/results" />
+                android:text="@string/results"
+                android:textStyle="bold" />
         </LinearLayout>
 
 
@@ -141,15 +149,16 @@
                 android:layout_weight="1"
                 android:text="Bahraini Dinar"
                 android:textColor="@color/teal_500"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
             <EditText
                 android:id="@+id/curr4"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginEnd="20dp"
-                android:layout_marginStart="20dp"
-                android:layout_weight="1"
+                android:layout_marginStart="5dp"
+                android:layout_weight="1.3"
                 android:hint="BHD"
                 android:inputType="numberDecimal"
                 android:textAlignment="center"
@@ -160,7 +169,8 @@
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:layout_weight="0"
-                android:text="@string/results" />
+                android:text="@string/results"
+                android:textStyle="bold" />
         </LinearLayout>
 
         <LinearLayout
@@ -177,15 +187,16 @@
                 android:layout_weight="1"
                 android:text="Russian Rubble"
                 android:textColor="@color/teal_500"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
             <EditText
                 android:id="@+id/curr5"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginEnd="20dp"
-                android:layout_marginStart="20dp"
-                android:layout_weight="1"
+                android:layout_marginStart="5dp"
+                android:layout_weight="1.3"
                 android:hint="RUB"
                 android:inputType="numberDecimal"
                 android:textAlignment="center"
@@ -196,7 +207,8 @@
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:layout_weight="0"
-                android:text="@string/results" />
+                android:text="@string/results"
+                android:textStyle="bold" />
         </LinearLayout>
 
         <LinearLayout
@@ -213,15 +225,16 @@
                 android:layout_weight="1"
                 android:text="Hungarian Forint"
                 android:textColor="@color/teal_500"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
             <EditText
                 android:id="@+id/curr6"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginEnd="20dp"
-                android:layout_marginStart="20dp"
-                android:layout_weight="1"
+                android:layout_marginStart="5dp"
+                android:layout_weight="1.3"
                 android:hint="HUF"
                 android:inputType="numberDecimal"
                 android:textAlignment="center"
@@ -232,7 +245,8 @@
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:layout_weight="0"
-                android:text="@string/results" />
+                android:text="@string/results"
+                android:textStyle="bold" />
         </LinearLayout>
 
         <LinearLayout
@@ -249,15 +263,16 @@
                 android:layout_weight="1"
                 android:text="Japanese Yen"
                 android:textColor="@color/teal_500"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
             <EditText
                 android:id="@+id/curr7"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginEnd="20dp"
-                android:layout_marginStart="20dp"
-                android:layout_weight="1"
+                android:layout_marginStart="5dp"
+                android:layout_weight="1.3"
                 android:hint="JPY"
                 android:inputType="numberDecimal"
                 android:textAlignment="center"
@@ -268,7 +283,8 @@
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:layout_weight="0"
-                android:text="@string/results" />
+                android:text="@string/results"
+                android:textStyle="bold" />
         </LinearLayout>
 
         <LinearLayout
@@ -285,15 +301,16 @@
                 android:layout_weight="1"
                 android:text="Swiss Franc"
                 android:textColor="@color/teal_500"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
             <EditText
                 android:id="@+id/curr8"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginEnd="20dp"
-                android:layout_marginStart="20dp"
-                android:layout_weight="1"
+                android:layout_marginStart="5dp"
+                android:layout_weight="1.3"
                 android:hint="CHF"
                 android:inputType="numberDecimal"
                 android:textAlignment="center"
@@ -304,7 +321,8 @@
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:layout_weight="0"
-                android:text="@string/results" />
+                android:text="@string/results"
+                android:textStyle="bold" />
         </LinearLayout>
 
     </LinearLayout>
