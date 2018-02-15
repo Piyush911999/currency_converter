@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.piyushkumar.currencyconverter.converter2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:minHeight="40dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Indian Rupee"
+                android:textColor="@color/red_500"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/curr1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_weight="1"
+                android:hint="Rs"
+                android:inputType="numberDecimal"
+                android:textAlignment="center"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/btnCal"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_weight="0"
+                android:text="@string/results" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:minHeight="40dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="US Dollar"
+                android:textColor="@color/teal_500"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/curr2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_weight="1"
+                android:hint="USD"
+                android:inputType="numberDecimal"
+                android:textAlignment="center"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/btnCal2"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_weight="0"
+                android:text="@string/results" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:minHeight="40dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Malaysian Ringgit"
+                android:textColor="@color/teal_500"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/curr3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_weight="1"
+                android:hint="MYR"
+                android:inputType="numberDecimal"
+                android:textAlignment="center"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/btnCal3"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_weight="0"
+                android:text="@string/results" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:minHeight="40dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Bahraini Dinar"
+                android:textColor="@color/teal_500"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/curr4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_weight="1"
+                android:hint="BHD"
+                android:inputType="numberDecimal"
+                android:textAlignment="center"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/btnCal4"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_weight="0"
+                android:text="@string/results" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:minHeight="40dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Russian Rubble"
+                android:textColor="@color/teal_500"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/curr5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_weight="1"
+                android:hint="RUB"
+                android:inputType="numberDecimal"
+                android:textAlignment="center"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/btnCal5"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_weight="0"
+                android:text="@string/results" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:minHeight="40dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Hungarian Forint"
+                android:textColor="@color/teal_500"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/curr6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_weight="1"
+                android:hint="HUF"
+                android:inputType="numberDecimal"
+                android:textAlignment="center"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/btnCal6"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_weight="0"
+                android:text="@string/results" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:minHeight="40dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Japanese Yen"
+                android:textColor="@color/teal_500"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/curr7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_weight="1"
+                android:hint="JPY"
+                android:inputType="numberDecimal"
+                android:textAlignment="center"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/btnCal7"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_weight="0"
+                android:text="@string/results" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:minHeight="40dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Swiss Franc"
+                android:textColor="@color/teal_500"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/curr8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_weight="1"
+                android:hint="CHF"
+                android:inputType="numberDecimal"
+                android:textAlignment="center"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/btnCal8"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_weight="0"
+                android:text="@string/results" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

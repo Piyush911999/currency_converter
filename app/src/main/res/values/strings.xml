@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CurrencyConverter</string>
+    <string name="results">-></string>
+    <string name="asg2">Assignment 2</string>
+</resources>
