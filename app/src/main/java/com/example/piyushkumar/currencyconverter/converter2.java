@@ -1,5 +1,6 @@
 package com.example.piyushkumar.currencyconverter;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -369,4 +370,10 @@ public class converter2 extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
+    public void page1(View view) {
+        Intent pg1 = new Intent(this, MainActivity.class);
+        startActivity(pg1);
+        finish();
+
+    }
 }

@@ -2,4 +2,6 @@
     <string name="app_name">CurrencyConverter</string>
     <string name="results">-></string>
     <string name="asg2">Assignment 2</string>
+    <string name="asg1">Assignment 1</string>
+
 </resources>

@@ -325,5 +325,21 @@
                 android:textStyle="bold" />
         </LinearLayout>
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:minHeight="40dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/toPage1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="page1"
+                android:text="@string/asg1"
+                android:textStyle="bold" />
+        </LinearLayout>
+
     </LinearLayout>
 </ScrollView>
